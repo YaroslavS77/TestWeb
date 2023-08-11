@@ -7,6 +7,6 @@ public class MainTest extends TestInit{
     public void testMainPage(){
         HomePageHelper homePageHelper = new HomePageHelper(driver);
         homePageHelper.goToComfy();
-        homePageHelper.search("Телефони\n");
+        homePageHelper.search("cat toy");
     }
 }
