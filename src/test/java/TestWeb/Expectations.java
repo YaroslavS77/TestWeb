@@ -1,4 +1,4 @@
-package NewFrameworkTest;
+package TestWeb;
 
 import org.openqa.selenium.WebElement;
 

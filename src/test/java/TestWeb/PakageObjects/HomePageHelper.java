@@ -1,4 +1,4 @@
-package NewFrameworkTest.PakageObjects;
+package TestWeb.PakageObjects;
 
 import org.openqa.selenium.WebDriver;
 

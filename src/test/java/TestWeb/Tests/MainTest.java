@@ -1,5 +1,5 @@
-package NewFrameworkTest.Tests;
-import NewFrameworkTest.PakageObjects.HomePageHelper;
+package TestWeb.Tests;
+import TestWeb.PakageObjects.HomePageHelper;
 import org.testng.annotations.Test;
 
 public class MainTest extends TestInit{
