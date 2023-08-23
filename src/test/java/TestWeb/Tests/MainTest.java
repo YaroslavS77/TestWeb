@@ -4,9 +4,9 @@ import org.testng.annotations.Test;
 
 public class MainTest extends TestInit{
     @Test
-    public void testMainPage(){
+    public void testMainPage() throws InterruptedException {
         HomePageHelper homePageHelper = new HomePageHelper(driver);
         homePageHelper.goToComfy();
-        homePageHelper.search("cat");
+        homePageHelper.search("Samsung s23");
     }
 }
