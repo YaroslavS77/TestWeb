@@ -8,5 +8,6 @@ public class MainTest extends TestInit{
         HomePageHelper homePageHelper = new HomePageHelper(driver);
         homePageHelper.goToComfy();
         homePageHelper.search("Samsung s23");
+        homePageHelper.goToComfy();
     }
 }
