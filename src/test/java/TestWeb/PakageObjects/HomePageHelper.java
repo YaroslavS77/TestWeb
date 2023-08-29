@@ -7,8 +7,8 @@ public class HomePageHelper extends HomePageElements{
         super(driver);
     }
 
-    public void goToComfy(){
-        driver.get("https://comfy.ua");
+    public void goToRozetka(){
+        driver.get("https://rozetka.com.ua");
     }
 
     public HomePageElements search(String objectForSearch){
