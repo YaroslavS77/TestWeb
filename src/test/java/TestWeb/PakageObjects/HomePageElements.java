@@ -8,11 +8,10 @@ public class HomePageElements extends BasePage {
     }
 
     public WebElement getLogo() {
-       return findElementByXpath("//img[@alt = 'Rozetka Logo']");
+        return waitElementToBeClickable("//img[@alt = 'Rozetka Logo']");
     }
 
     public WebElement getSearchField() {
-
         return findElementByXpath("//input[@name = 'search']");
     }
 
@@ -23,4 +22,5 @@ public class HomePageElements extends BasePage {
     public WebElement getLogInBtn(){
        return findElementByXpath("(//button[@class = 'header__button ng-star-inserted'])[1]");
     }
+
 }

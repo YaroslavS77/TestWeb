@@ -13,6 +13,7 @@ public abstract class BasePage implements Expectations {
     public WebDriver driver;
 
     public BasePage(WebDriver driver){
+
         this.driver = driver;
     }
 

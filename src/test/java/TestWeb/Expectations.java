@@ -1,7 +1,6 @@
 package TestWeb;
 
 import org.openqa.selenium.WebElement;
-
 import java.util.List;
 
 public interface Expectations {

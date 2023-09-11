@@ -11,8 +11,7 @@ public class MainPageTest extends TestInit{
         HomePageElements homePageElements = new HomePageElements(driver);
         HomePageHelper homePageHelper = new HomePageHelper(driver);
         homePageHelper.goToRozetka();
-        WebElement logoElement = homePageElements.getLogo();
-        Assert.assertTrue(logoElement.isDisplayed(), "Logo is not displayed on the page");
+        Assert.assertTrue(homePageElements.getLogo().isDisplayed(), "Logo is not displayed on the page");
     }
 
     @Test
@@ -20,8 +19,6 @@ public class MainPageTest extends TestInit{
         HomePageElements homePageElements = new HomePageElements(driver);
         HomePageHelper homePageHelper = new HomePageHelper(driver);
         homePageHelper.goToRozetka();
-        homePageElements.getSearchField();
-        WebElement searchFieldElement = homePageElements.getSearchField();
-        Assert.assertTrue(searchFieldElement.isDisplayed(), "Search field is not displayed on the page");
+        Assert.assertTrue(homePageElements.getSearchField().isDisplayed(), "Search field is not displayed on the page");
     }
 }
