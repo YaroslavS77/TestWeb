@@ -28,7 +28,7 @@ public class AddPlaceAPITest {
         System.out.println(placeId);
 
         given().log().all().queryParam("key", "qaclick123").header("Content-Type", "application/json")
-                .body(new String (Files.readAllBytes(Paths.get("/Users/yaroslavsemenchenko/Downloads/Library+API.postman_collection.json"))))
+                .body(new String (Files.readAllBytes(Paths.get("/Users/yaroslavsemenchenko/Desktop/Library+API.postman_collection.json"))))
                 .when().put("/maps/api/place/update/json")
                 .then().assertThat().log().all().statusCode(200);
 

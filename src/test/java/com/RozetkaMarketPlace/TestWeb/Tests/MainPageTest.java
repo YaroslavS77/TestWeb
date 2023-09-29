@@ -26,4 +26,6 @@ public class MainPageTest extends TestInit{
         Assert.assertTrue(homePageElements.getSearchField().isDisplayed(), "Search field is not displayed on the page");
 
     }
+
+
 }
