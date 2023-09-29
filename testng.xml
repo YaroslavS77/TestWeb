@@ -1,11 +1,13 @@
 <?xml version = "1.0" encoding = "UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<suite name = "Rozetka test">
+<suite name = "RozetkaMarketPlace">
 
-    <test name = "home page test">
+    <test name = "RozetkaTest" parallel = "methods" thread-count = "4">
         <classes>
-            <class name = "testRozetka.tests.TestRozetkaHomePage" />
+            <class name = "TestWeb.Tests.MainPageTest" />
+            <class name = "TestWeb.Tests.MenuListTest" />
+            <class name = "TestWeb.Tests.LogInTest" />
         </classes>
     </test>
 
